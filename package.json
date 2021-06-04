@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node ./src/app/server.js",
+    "dev": "nodemon --watch './src/**/*.ts' --exec 'node' ./src/app/server.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "nodemon": "^1.19.4",
+    "peer": "^0.6.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
